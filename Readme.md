@@ -38,6 +38,9 @@ pipx upgrade tko
 # Criar o repositório de atividades
 tko init -f tasks -l py -r poo
 
+
+
+
 # Interagir com seu repositório
 tko open tasks
 ```
