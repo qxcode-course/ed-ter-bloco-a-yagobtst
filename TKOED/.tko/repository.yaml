@@ -21,8 +21,10 @@ sources:
   quests: null
   tasks: null
 expanded:
-- fup@missão-operações
 - fup@campanha-principal
+- fup@missão-seleção-1
+- fup@missão-operações
+- ed@main-quest
 tasks:
   fup@resto: '{rate:100}'
   fup@media: '{rate:100}'
@@ -31,6 +33,7 @@ tasks:
   fup@celsius: '{rate:100}'
   fup@pintando: '{rate:100}'
   fup@bala: '{rate:100}'
+  fup@abs: '{rate:100}'
 flags:
   painel: 0
   quests: 0
@@ -39,4 +42,4 @@ flags:
   task_graph_mode: 0
   show_time: 0
 lang: go
-selected: fup@missão-operações
+selected: fup@max
