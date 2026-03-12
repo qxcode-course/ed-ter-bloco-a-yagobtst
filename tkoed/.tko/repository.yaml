@@ -10,24 +10,25 @@ sources:
   target: https://github.com/qxcodeed/arcade.git
   type: git
   writeable: false
-  cache_timestamp: '2026-03-12 09:41:26'
+  cache_timestamp: '2026-03-12 14:39:22'
   quests: null
   tasks: null
 - name: fup
   target: https://github.com/qxcodefup/arcade.git
   type: git
   writeable: false
-  cache_timestamp: '2026-03-12 09:41:26'
+  cache_timestamp: '2026-03-12 14:39:23'
   quests: null
   tasks: null
 expanded:
-- ed@main-quest
 - ed@revisão
+- ed@main-quest
 - fup@campanha-principal
 tasks:
   ed@pintando: '{self:1, rate:100, study:12, friend:n}'
   ed@mumia: '{self:1, rate:100, study:14, friend:n}'
   ed@fuga: '{self:1, rate:100, study:7, friend:Nao, concept:1}'
+  ed@pedra: '{self:1, rate:100, study:15, concept:1}'
   fup@tres: '{self:1, rate:100, study:8, friend:nao}'
   fup@resto: '{self:1, rate:100, friend:nao}'
   fup@media: '{self:1, rate:100, friend:nao}'
@@ -45,4 +46,4 @@ flags:
   task_graph_mode: 0
   show_time: 0
 lang: go
-selected: ed@pedra
+selected: ed@análise
