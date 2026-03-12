@@ -21,19 +21,21 @@ sources:
   quests: null
   tasks: null
 expanded:
-- fup@campanha-principal
 - ed@main-quest
 - ed@revisão
+- fup@campanha-principal
 tasks:
-  ed@pintando: '{rate:100}'
-  ed@mumia: '{rate:100}'
-  fup@resto: '{rate:100}'
-  fup@media: '{rate:100}'
-  fup@sobrou: '{rate:100}'
-  fup@segundos: '{rate:100}'
-  fup@celsius: '{rate:100}'
-  fup@pintando: '{rate:100}'
-  fup@bala: '{rate:100}'
+  ed@pintando: '{self:1, rate:100, study:12, friend:n}'
+  ed@mumia: '{self:1, rate:100, study:14, friend:n}'
+  ed@fuga: '{self:1, rate:100, study:7, friend:Nao, concept:1}'
+  fup@tres: '{self:1, rate:100, study:8, friend:nao}'
+  fup@resto: '{self:1, rate:100, friend:nao}'
+  fup@media: '{self:1, rate:100, friend:nao}'
+  fup@sobrou: '{self:1, rate:100, friend:n}'
+  fup@segundos: '{self:1, rate:100, friend:n}'
+  fup@celsius: '{self:1, rate:100, friend:n}'
+  fup@pintando: '{self:1, rate:100, friend:n}'
+  fup@bala: '{self:1, rate:100, friend:n}'
   fup@abs: '{rate:100}'
 flags:
   painel: 0
@@ -43,4 +45,4 @@ flags:
   task_graph_mode: 0
   show_time: 0
 lang: go
-selected: ed@fuga
+selected: ed@pedra

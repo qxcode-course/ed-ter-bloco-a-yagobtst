@@ -7,7 +7,17 @@
         },
         {
             "label": "2026-03-10_14-04-53",
-            "content": "package main\nimport \"fmt\"\n\nfunc main() {\n    var a,b int\n    fmt.Scan(&a, &b,)\n    fmt.Println(a+b)\n}\n",
+            "content": "@@ -49,10 +49,8 @@\n  a,b\n-,c\n  int\n@@ -74,11 +74,8 @@\n  &b,\n- &c\n )%0A  \n@@ -95,11 +95,8 @@\n (a+b\n-+c\n )%0A%7D%0A\n-j\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-12_10-10-25",
+            "content": "@@ -102,8 +102,9 @@\n +b+c)%0A%7D%0A\n+j\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-03-12_10-10-41",
+            "content": "package main\nimport \"fmt\"\n\nfunc main() {\n    var a,b,c int\n    fmt.Scan(&a, &b, &c)\n    fmt.Println(a+b+c)\n}\n",
             "lines": "8"
         }
     ]

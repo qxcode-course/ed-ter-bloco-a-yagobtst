@@ -6,4 +6,3 @@ func main() {
     fmt.Scan(&a, &b, &c)
     fmt.Println(a+b+c)
 }
-j
