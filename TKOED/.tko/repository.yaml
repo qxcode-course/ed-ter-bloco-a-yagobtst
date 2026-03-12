@@ -10,22 +10,23 @@ sources:
   target: https://github.com/qxcodeed/arcade.git
   type: git
   writeable: false
-  cache_timestamp: '2026-03-11 13:18:40'
+  cache_timestamp: '2026-03-12 08:22:30'
   quests: null
   tasks: null
 - name: fup
   target: https://github.com/qxcodefup/arcade.git
   type: git
   writeable: false
-  cache_timestamp: '2026-03-11 13:18:40'
+  cache_timestamp: '2026-03-12 08:22:31'
   quests: null
   tasks: null
 expanded:
-- fup@campanha-principal
-- fup@missão-seleção-1
-- fup@missão-operações
 - ed@main-quest
+- fup@missão-seleção-1
+- ed@revisão
+- fup@missão-operações
 tasks:
+  ed@pintando: '{rate:100}'
   fup@resto: '{rate:100}'
   fup@media: '{rate:100}'
   fup@sobrou: '{rate:100}'
@@ -42,4 +43,4 @@ flags:
   task_graph_mode: 0
   show_time: 0
 lang: go
-selected: fup@max
+selected: ed@pintando
