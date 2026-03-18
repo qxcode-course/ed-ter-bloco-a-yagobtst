@@ -19,10 +19,10 @@ sources:
   quests: null
   tasks: null
 expanded:
+- ed@main-quest
+- fup@campanha-principal
 - ed@análise
 - ed@revisão
-- fup@campanha-principal
-- ed@main-quest
 tasks:
   ed@pintando: '{self:1, rate:100, study:12, friend:n}'
   ed@mumia: '{self:1, rate:100, study:14, friend:n}'
@@ -30,6 +30,7 @@ tasks:
   ed@pedra: '{self:1, rate:100, study:15, concept:1}'
   ed@casais: '{self:1, rate:100, study:24, friend:n, problem:1, code:1}'
   ed@baruel: '{rate:100}'
+  ed@gomos: '{self:1, rate:100, study:25, concept:1}'
   fup@tres: '{self:1, rate:100, study:8, friend:nao}'
   fup@resto: '{self:1, rate:100, friend:nao}'
   fup@media: '{self:1, rate:100, friend:nao}'
